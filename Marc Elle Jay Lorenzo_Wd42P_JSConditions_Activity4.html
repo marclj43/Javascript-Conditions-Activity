@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = "";
+        let avg = prompt ("What is your grade?");
+
+        avg = parseInt(avg);
+
+        if (avg >= 90 && avg <= 100){
+        
+        str = "S Grade";
+        
+        } else if (avg >= 80 && avg <= 90){
+
+        str = "A Grade";
+
+        } else if (avg >= 70 && avg <= 80){
+        
+        str = "B Grade";
+
+        } else if (avg >= 60 && avg <= 70){
+
+        str = "C Grade";
+
+        } else if (avg >= 50 && avg <= 60){
+        
+        str = "D Grade";
+
+        } else if (avg >= 40 && avg <= 50){
+
+        str = "E Grade";
+
+        } else if (avg >= 0 && avg <= 40){
+
+        str = "Student has failed"
+
+        }
+        
+        else 
+        str = "Invalid Marks";
+
+        console.log(str); 
+        
+    </script>
+</body>
+</html>
